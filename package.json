@@ -1,0 +1,15 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A simple weather app that displays temperature, wind direction, and other weather info using an API.",
+  "author": "Yahya Al-Ademi",
+  "license": "ISC",
+  "keywords": ["weather", "api", "axios", "wind-direction", "javascript"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
