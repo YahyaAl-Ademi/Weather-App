@@ -1,5 +1,5 @@
 import { getWeatherBtn } from '../ui/weatherScreen.js';
-import { OPEN_WEATHER_API_KEY } from '../api_keys.js';
+// import { OPEN_WEATHER_API_KEY } from '../api_keys.js';
 import { saveInHistory } from '../storage/localStorage.js';
 import { renderWeather } from '../view/renderWeather.js';
 
