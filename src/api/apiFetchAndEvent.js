@@ -3,9 +3,9 @@ import { saveInHistory } from '../storage/localStorage.js';
 import { renderWeather } from '../view/renderWeather.js';
 
 
-
+const baseURL = process.env.API_BASE_URL || 'http://127.0.0.1:3000';
 export async function fetchWeather(city) {
-  const url = `http://127.0.0.1:3000/api/weather?city=${city}`;
+  const url = `${baseURL}/api/weather?city=${city}`;
 
   try {
     const response = await fetch(url);
