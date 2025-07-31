@@ -21,3 +21,6 @@ build/
 
 #  Prettier 
 .prettiercache
+
+# Environment variables
+.env

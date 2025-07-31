@@ -3,13 +3,26 @@
   "version": "1.0.0",
   "description": "A simple weather app that displays temperature, wind direction, and other weather info using an API.",
   "author": "Yahya Al-Ademi",
+  "type": "module",
   "license": "ISC",
-  "keywords": ["weather", "api", "axios", "wind-direction", "javascript"],
+  "keywords": [
+    "weather",
+    "api",
+    "axios",
+    "wind-direction",
+    "javascript"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write ."
   },
   "devDependencies": {
     "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
   }
 }

@@ -1,13 +1,11 @@
 import { getWeatherBtn } from '../ui/weatherScreen.js';
-// import { OPEN_WEATHER_API_KEY } from '../api_keys.js';
 import { saveInHistory } from '../storage/localStorage.js';
 import { renderWeather } from '../view/renderWeather.js';
 
 
 
 export async function fetchWeather(city) {
-  const apiKey = OPEN_WEATHER_API_KEY;
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+  const url = `http://127.0.0.1:3000/api/weather?city=${city}`;
 
   try {
     const response = await fetch(url);
