@@ -3,7 +3,7 @@ import { saveInHistory } from '../storage/localStorage.js';
 import { renderWeather } from '../view/renderWeather.js';
 
 
-const baseURL = process.env.API_BASE_URL || 'http://localhost:3000';
+'https://weather-app-ey6z.onrender.com'
 export async function fetchWeather(city) {
   const url = `${baseURL}/api/weather?city=${city}`;
 
